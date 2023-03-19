@@ -1,0 +1,40 @@
+.cat-profile {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    padding: 3.0em 1.0em;
+}
+
+.cat-profile-img {
+    width: 20%;
+    border-radius: 10px;
+}
+
+.cat-details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.text, .text-extra {
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.text-extra {
+    width: 55%;
+}
+
+.wiki-link {
+    text-decoration: none;
+    color: rgb(54, 51, 51);
+    font-size: 2.5rem;
+}

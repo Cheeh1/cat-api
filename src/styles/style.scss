@@ -12,33 +12,6 @@ body {
     box-sizing: border-box;
 }
 
-.title {
-    text-align: center;
-    font-size: 5.0rem;
-    font-weight: 600;
-    padding-top: 0.5em;
-}
+@import "catList";
 
-.cat-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(7, 1fr);
-    gap: 30px;
-    padding: 2.5em 1.5em;
-}
-
-.cat {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.cat-img {
-    width: 100%;
-    border-radius: 10px;
-}
-
-.cat-name {
-    font-size: 2.5rem;
-    font-weight: 600;
-}
+@import "catProfile";
